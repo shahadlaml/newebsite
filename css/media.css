@@ -1,0 +1,95 @@
+/*MEDIA QOUERIS stright up css no sass watch */
+
+/*mobile view*/
+@media only screen and (max-width: 600px) {
+  .overlay{
+    width: 50%;
+  	left: 50%;
+  }
+  }
+
+
+/*the h2 landing page title shading
+*/
+.header h2{
+-webkit-text-shadow: 0px 0px 7px #1C5069;
+-moz-text-shadow: 0px 0px 7px #1C5069;
+text-shadow: 0px 0px 7px #1C5069;
+}
+
+@media only screen and (max-width: 600px){
+  .header h2{
+    padding-top: 66px;
+    font-size: 10px;
+  }
+  .header p{
+        font-size: 15px;
+  }
+}
+
+/*the  landing page projects list responsive mobile size
+*/
+@media (max-width: 600px) {
+
+  .projects-container{
+    padding: 10px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+  }
+  .projects {
+    grid-row-gap: 30px;
+  }
+  .album {
+    grid-template-columns: 0.5fr;
+    align-items: initial;
+    justify-content: center;
+  }
+  .project__descreption{
+    font-size: 1em;
+    text-align: center;
+  }
+  .project__name{
+    text-align: center;
+  }
+  .projects-btn{
+  padding-bottom: 10%;
+  }
+  .gallery-info{
+    display: block;
+  }
+  .gallery-info p{
+    width: auto;
+  }
+  .skill-container{
+    grid-template-columns: repeat(1, 1fr);
+    }
+}
+/*for the project mockup page grid*/
+@media (min-width: 480px) {
+  .gallery li {
+    &:first-child {
+      grid-area: 1 / 1 / span 2 / span 2;
+    }
+
+    &:nth-child(2n) {
+      grid-column: span 2;
+    }
+  }
+}
+
+
+
+/* for the ipad screen cv page */
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+.cv-container{
+  padding: 13% 0;
+}
+.cv-info{
+  padding-left: 55px;
+}
+
+
+ }
