@@ -470,4 +470,77 @@ footer {
   justify-content: center;
   justify-items: center; }
 
+/* MODULES */
+.headlink {
+  text-decoration: none;
+  color: white; }
+  .headlink:hover {
+    text-decoration: underline; }
+
+.blog-container {
+  display: flex;
+  justify-content: center;
+  padding: 2em 5.5em;
+  flex-direction: column; }
+  .blog-container p {
+    text-align: right; }
+
+.weeksbtns {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row-reverse; }
+  .weeksbtns a {
+    text-decoration: none;
+    color: #52AAAB;
+    margin: 0.5em 0.5em; }
+
+.btnweek {
+  text-align: center;
+  transition: all 0.6s ease-in-out;
+  display: inline-block;
+  content: "";
+  height: 2em;
+  width: 70px;
+  font-size: 0.8em;
+  position: relative;
+  padding: 1em 2em;
+  position: relative;
+  border-radius: 25px;
+  border: 2px solid #52AAAB;
+  border-right: 2px solid rgba(255, 0, 0, 0);
+  border-top: 2px solid rgba(255, 0, 0, 0); }
+  .btnweek:hover {
+    color: #52AAAB;
+    transition: all 0.6s ease;
+    padding: 1em 2em;
+    border: 2px solid #52AAAB;
+    border-left: 2px solid rgba(255, 0, 0, 0);
+    border-bottom: 2px solid rgba(255, 0, 0, 0); }
+
+.poststhum {
+  width: 50%;
+  padding-top: 90px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+  .poststhum img {
+    width: 100%;
+    padding-top: 1.5em; }
+
+.postcover {
+  width: 80%; }
+
+.postimg {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.post-container {
+  padding: 2em 10.5em; }
+  .post-container span {
+    font-size: 0.7em;
+    color: #52AAAB; }
+
 /*# sourceMappingURL=app.css.map */
