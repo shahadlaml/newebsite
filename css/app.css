@@ -519,17 +519,21 @@ footer {
     border-bottom: 2px solid rgba(255, 0, 0, 0); }
 
 .poststhum {
-  width: 50%;
+  width: 100%;
   padding-top: 90px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  flex-direction: row-reverse; }
   .poststhum img {
-    width: 100%;
+    width: 400px;
     padding-top: 1.5em; }
 
 .postcover {
-  width: 80%; }
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 
 .postimg {
   width: 80%;

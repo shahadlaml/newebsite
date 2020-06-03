@@ -2,7 +2,14 @@
 //filter toggle btn
 $(document).ready(function(){
 
-  $('.btnweek').click(function(){
+
+
+
+  $('.btnweek').click(function(event){
+
+    event.preventDefault();
+
+
 		var attr = $(this).attr('id');
 
     $('.btnweek').removeClass("active");
