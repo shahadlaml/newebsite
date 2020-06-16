@@ -131,3 +131,20 @@ particlesJS('particles-js',
   }
 
 );
+
+
+
+
+
+
+/* the onclick zoom */
+
+
+
+
+
+
+
+
+
+//  lpd
