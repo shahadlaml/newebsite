@@ -208,8 +208,9 @@ footer {
 .projects {
   padding: 15px;
   display: grid;
-  grid-gap: 30px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 300px));
   padding-bottom: 2.5em; }
 
 .album {
@@ -357,6 +358,33 @@ footer {
   justify-content: center; }
   .gaa-pdf-container iframe {
     width: 60%; }
+
+/*projects botten styles */
+.btnproject {
+  text-align: center;
+  transition: all 0.6s ease-in-out;
+  display: inline-block;
+  content: "";
+  height: 2em;
+  width: 79px;
+  font-size: 0.8em;
+  position: relative;
+  padding: 1em 2em;
+  position: relative;
+  border-radius: 25px;
+  border: 2px solid #52AAAB;
+  border-right: 2px solid rgba(255, 0, 0, 0);
+  border-top: 2px solid rgba(255, 0, 0, 0); }
+  .btnproject:hover {
+    color: #52AAAB;
+    transition: all 0.6s ease;
+    padding: 1em 2em;
+    border: 2px solid #52AAAB;
+    border-left: 2px solid rgba(255, 0, 0, 0);
+    border-bottom: 2px solid rgba(255, 0, 0, 0); }
+
+.projectsbtn {
+  margin-top: 2.5em; }
 
 /* MODULES */
 .cv-container {

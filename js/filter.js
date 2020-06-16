@@ -56,3 +56,60 @@ $(document).ready(function(){
 
 
 });
+
+
+
+//filter projects toggle btn
+$(document).ready(function(){
+
+
+
+
+  $('.btnproject').click(function(event){
+
+    event.preventDefault();
+
+
+		var attr = $(this).attr('id');
+
+    $('.btnweek').removeClass("active");
+    $(this).addClass("active");
+
+    $('.all-1').hide();
+    if (attr == 'week1'){
+      $('.'+attr).show();
+    }
+    else if (attr == 'logo'){
+      $('.'+attr).show();
+    }
+
+    else if (attr == 'visual'){
+      $('.'+attr).show();
+    }
+
+    else if (attr == 'illustration'){
+      $('.'+attr).show();
+    }
+
+    else if (attr == 'ui'){
+      $('.'+attr).show();
+    }
+
+    else if (attr == 'book'){
+      $('.'+attr).show();
+    }
+
+    else if (attr == 'iconbtn'){
+      $('.'+attr).show();
+    }
+
+    else{
+      $('.all-1').show();
+    }
+
+
+
+  })
+
+
+});
