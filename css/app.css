@@ -321,20 +321,21 @@ footer {
   padding: 0 2%; }
 
 .gallery {
-  display: grid;
-  grid-gap: 30px;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-auto-rows: 380px 380px;
-  padding: 0;
-  list-style: none; }
-  .gallery li img {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    display: block;
-    object-fit: cover; }
-    .gallery li img:hover {
-      opacity: 0.9; }
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center; }
+  .gallery li {
+    position: relative;
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 5px 5px 0 5px;
+    overflow: hidden; }
+    .gallery li img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
 
 .gallery-container {
   width: 90%;

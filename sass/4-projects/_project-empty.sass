@@ -1,20 +1,22 @@
+$square-width: 30%
+$square-margin: 5px
+
 .gallery
-  display: grid
-  grid-gap: 30px
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr))
-  grid-auto-rows: 380px 380px
-  padding: 0
-  list-style: none
+  display: flex
+  flex-wrap: wrap
+  width: 100%
+  justify-content: center
   li
+    position: relative
+    width: $square-width
+    padding-bottom: $square-width
+    margin: $square-margin $square-margin 0 $square-margin
+    overflow: hidden
     img
+      position: absolute
       width: 100%
       height: 100%
-      margin: 0
-      display: block
       object-fit: cover
-      &:hover
-        opacity: 0.9
-
 
 .gallery-container
   width: 90%
