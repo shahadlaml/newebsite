@@ -542,10 +542,20 @@ footer {
   margin-right: auto; }
 
 .post-container {
-  padding: 2em 10.5em; }
-  .post-container span {
-    font-size: 0.7em;
-    color: #52AAAB; }
+  text-align: right;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em 25%; }
+
+.date {
+  text-align: center;
+  font-size: 0.8em;
+  color: #52AAAB;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em 25%; }
 
 .active {
   border: 2px solid #52AAAB; }
