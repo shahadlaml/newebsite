@@ -72,14 +72,11 @@ $(document).ready(function(){
 
 		var attr = $(this).attr('id');
 
-    $('.btnweek').removeClass("active");
+    $('.btnproject').removeClass("active");
     $(this).addClass("active");
 
     $('.all-1').hide();
-    if (attr == 'week1'){
-      $('.'+attr).show();
-    }
-    else if (attr == 'logo'){
+    if (attr == 'logo'){
       $('.'+attr).show();
     }
 
