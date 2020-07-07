@@ -99,6 +99,9 @@ $(document).ready(function(){
     else if (attr == 'iconbtn'){
       $('.'+attr).show();
     }
+    else if (attr == 'animation'){
+      $('.'+attr).show();
+    }
 
     else{
       $('.all-1').show();
