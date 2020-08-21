@@ -468,9 +468,11 @@ footer {
   display: inline-grid;
   justify-content: center;
   justify-items: center;
-  grid-template-columns: repeat(2, 1fr); }
+  grid-template-columns: repeat(3, 1fr); }
   .skill-container h3 {
-    text-align: center; }
+    text-align: center;
+    font-size: 1.5em;
+    padding: 30px 0; }
 
 .skill-lable {
   font-size: 1em;
@@ -492,6 +494,15 @@ footer {
   display: inline-grid;
   justify-content: center;
   justify-items: center; }
+
+.col3 {
+  width: 100%;
+  display: inline-grid;
+  justify-content: center;
+  justify-items: center; }
+
+.space {
+  height: 400px; }
 
 .col2 {
   width: 100%;
